@@ -24,16 +24,16 @@ $result = $statement->fetchAll();
    <body>
      <div class="container">
       <br />
-      <h3 align="center">Convert HTML Table to Excel using PHPSpreadsheet</h3>
+      <h3 allign="center">Convertir tabla HTML a Excel usando PHPSpreadsheet</h3>
       <br />
       <div class="table-responsive">
        <form method="POST" id="convert_form" action="export.php">
             <table class="table table-striped table-bordered" id="table_content">
               <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Created At</th>
-                <th>Updated At</th>
+                <th>Primer nombre</th>
+                <th>Segundo nombre</th>
+                <th>Creado en</th>
+                <th>Actualizado en</th>
               </tr>
               <?php
               foreach($result as $row)

@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
    <head>
-     <title>Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</title>
+     <title>Importar Data de Excel o CSV a Mysql</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
    </head>
    <body>
      <div class="container">
       <br />
-      <h3 align="center">Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</h3>
+      <h3 allign="center">Importar Data de Excel o CSV a Mysql using</h3>
       <br />
         <div class="panel panel-default">
-          <div class="panel-heading">Import Data From Excel or CSV File to Mysql using PHPSpreadsheet</div>
+          <div class="panel-heading">Importar Data de Excel o CSV a Mysql</div>
           <div class="panel-body">
           <div class="table-responsive">
            <span id="message"></span>
               <form method="post" id="import_excel_form" enctype="multipart/form-data">
                 <table class="table">
                   <tr>
-                    <td width="25%" align="right">Select Excel File</td>
+                    <td width="25%" allign="right">Seleccione archivo de Excel</td>
                     <td width="50%"><input type="file" name="import_excel" /></td>
                     <td width="25%"><input type="submit" name="import" id="import" class="btn btn-primary" value="Import" /></td>
                   </tr>
